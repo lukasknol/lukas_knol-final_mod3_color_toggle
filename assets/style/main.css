@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Oswald&family=Raleway&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
+
+body {
+    background-color: lightgrey;
+    font-family: 'Raleway', sans-serif;
+}
+
+#hamburger {
+    font-size: 40px;
+}
+
+.hamburger-menu {
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.hamburger-menu:hover ul {
+    left: -40px;
+    transition: left 500ms ease-in-out;
+}
+
+.hamburger-menu-hide {
+    position: absolute;
+    left: -280px;
+    top: 40px;
+    transition: left 500ms ease-in-out;
+}
+
+.hide {
+    display: none;
+}
+
+.red {
+    background-color:red;
+}
+
+.blue {
+    background-color:blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+li {
+    width: 200px;
+    list-style-type: none;
+    padding: 10px;
+    border: 1px solid rgb(184, 184, 184);
+}
+
+li:nth-child(1) {
+    background-color: lightgrey;
+}
+
+li:nth-child(2) {
+    background-color: red;
+    border-top: none;
+}
+
+li:nth-child(3) {
+    background-color: blue;
+    border-top: none;
+}
+
+li:nth-child(4) {
+    background-color: green;
+    border-top: none;
+}
+
+li:nth-child(5) {
+    background-color: yellow;
+    border-top: none;
+}
+
+.text-background {
+    font-size: 5rem;
+    font-weight: 100;
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+}
